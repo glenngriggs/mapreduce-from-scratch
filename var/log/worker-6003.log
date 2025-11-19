@@ -1,0 +1,106 @@
+Worker:6003 [INFO] Starting worker host=localhost port=6003 pwd=/home/glenngriggs/eecs485/p4-mapreduce
+Worker:6003 [INFO] manager_host=localhost manager_port=6000
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00001-f4uuhpme/maptask00001-part00000 -> /tmp/mapreduce-shared-q_8zpvzk/job-00000/maptask00001-part00000
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00001-f4uuhpme/maptask00001-part00001 -> /tmp/mapreduce-shared-q_8zpvzk/job-00000/maptask00001-part00001
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00001-esyv8fyr/part-00001 -> output/part-00001
+Worker:6003 [INFO] Worker shutting down
+Worker:6003 [INFO] Starting worker host=localhost port=6003 pwd=/home/glenngriggs/eecs485/p4-mapreduce
+Worker:6003 [INFO] manager_host=localhost manager_port=6000
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-hg6nu3u_/maptask00002-part00000 -> /tmp/mapreduce-shared-2txq_r3c/job-00000/maptask00002-part00000
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-hg6nu3u_/maptask00002-part00001 -> /tmp/mapreduce-shared-2txq_r3c/job-00000/maptask00002-part00001
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-hg6nu3u_/maptask00002-part00002 -> /tmp/mapreduce-shared-2txq_r3c/job-00000/maptask00002-part00002
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-hg6nu3u_/maptask00002-part00003 -> /tmp/mapreduce-shared-2txq_r3c/job-00000/maptask00002-part00003
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-94pi4iv4/part-00002 -> output/part-00002
+Worker:6003 [INFO] Worker shutting down
+Worker:6003 [INFO] Starting worker host=localhost port=6003 pwd=/home/glenngriggs/eecs485/p4-mapreduce
+Worker:6003 [INFO] manager_host=localhost manager_port=6000
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-reyn__ul/maptask00002-part00000 -> /tmp/mapreduce-shared-glkuhmn3/job-00000/maptask00002-part00000
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-reyn__ul/maptask00002-part00001 -> /tmp/mapreduce-shared-glkuhmn3/job-00000/maptask00002-part00001
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-reyn__ul/maptask00002-part00002 -> /tmp/mapreduce-shared-glkuhmn3/job-00000/maptask00002-part00002
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-reyn__ul/maptask00002-part00003 -> /tmp/mapreduce-shared-glkuhmn3/job-00000/maptask00002-part00003
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-gg_rsq8v/part-00002 -> output/part-00002
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00000-14ngyqd2/part-00000 -> output/part-00000
+Worker:6003 [INFO] Worker shutting down
+Worker:6003 [INFO] Starting worker host=localhost port=6003 pwd=/home/glenngriggs/eecs485/p4-mapreduce
+Worker:6003 [INFO] manager_host=localhost manager_port=6000
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00001-ol4ryzi_/maptask00001-part00000 -> /tmp/mapreduce-shared-k_dfznvt/job-00000/maptask00001-part00000
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00001-ol4ryzi_/maptask00001-part00001 -> /tmp/mapreduce-shared-k_dfznvt/job-00000/maptask00001-part00001
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00001-ol4ryzi_/maptask00001-part00002 -> /tmp/mapreduce-shared-k_dfznvt/job-00000/maptask00001-part00002
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00001-ol4ryzi_/maptask00001-part00003 -> /tmp/mapreduce-shared-k_dfznvt/job-00000/maptask00001-part00003
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00003-tvah63ur/maptask00003-part00000 -> /tmp/mapreduce-shared-k_dfznvt/job-00000/maptask00003-part00000
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00003-tvah63ur/maptask00003-part00001 -> /tmp/mapreduce-shared-k_dfznvt/job-00000/maptask00003-part00001
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00003-tvah63ur/maptask00003-part00002 -> /tmp/mapreduce-shared-k_dfznvt/job-00000/maptask00003-part00002
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00003-tvah63ur/maptask00003-part00003 -> /tmp/mapreduce-shared-k_dfznvt/job-00000/maptask00003-part00003
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00001-382po6kc/part-00001 -> output/part-00001
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00000-dimj7ine/part-00000 -> output/part-00000
+Worker:6003 [INFO] Worker shutting down
+Worker:6003 [INFO] Starting worker host=localhost port=6003 pwd=/home/glenngriggs/eecs485/p4-mapreduce
+Worker:6003 [INFO] manager_host=localhost manager_port=6000
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00000-mniza1ex/maptask00000-part00000 -> /tmp/mapreduce-shared-y8jjvdat/job-00000/maptask00000-part00000
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00000-mniza1ex/maptask00000-part00001 -> /tmp/mapreduce-shared-y8jjvdat/job-00000/maptask00000-part00001
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00000-mniza1ex/maptask00000-part00002 -> /tmp/mapreduce-shared-y8jjvdat/job-00000/maptask00000-part00002
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00000-mniza1ex/maptask00000-part00003 -> /tmp/mapreduce-shared-y8jjvdat/job-00000/maptask00000-part00003
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00000-fqcwzary/part-00000 -> output/part-00000
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-eavz3x5y/part-00002 -> output/part-00002
+Worker:6003 [INFO] Worker shutting down
+Worker:6003 [INFO] Starting worker host=localhost port=6003 pwd=/home/glenngriggs/eecs485/p4-mapreduce
+Worker:6003 [INFO] manager_host=localhost manager_port=6000
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-6rhl4435/maptask00002-part00000 -> /tmp/mapreduce-shared-q1i3vd66/job-00000/maptask00002-part00000
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-6rhl4435/maptask00002-part00001 -> /tmp/mapreduce-shared-q1i3vd66/job-00000/maptask00002-part00001
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-6rhl4435/maptask00002-part00002 -> /tmp/mapreduce-shared-q1i3vd66/job-00000/maptask00002-part00002
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-6rhl4435/maptask00002-part00003 -> /tmp/mapreduce-shared-q1i3vd66/job-00000/maptask00002-part00003
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-ggsa3b6z/part-00002 -> output/part-00002
+Worker:6003 [ERROR] TCP handler raised: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/glenngriggs/eecs485/p4-mapreduce/mapreduce/utils/__init__.py", line 98, in tcp_server
+    handle_func(msg)
+  File "/home/glenngriggs/eecs485/p4-mapreduce/mapreduce/worker/__main__.py", line 121, in _handle_tcp
+    self._run_reduce_task(message)
+  File "/home/glenngriggs/eecs485/p4-mapreduce/mapreduce/worker/__main__.py", line 268, in _run_reduce_task
+    tcp_send(
+  File "/home/glenngriggs/eecs485/p4-mapreduce/mapreduce/utils/__init__.py", line 53, in tcp_send
+    sock.connect((host, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+Worker:6003 [INFO] Worker shutting down
+Worker:6003 [INFO] Starting worker host=localhost port=6003 pwd=/home/glenngriggs/eecs485/p4-mapreduce
+Worker:6003 [INFO] manager_host=localhost manager_port=6000
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00001-hs0emz2t/maptask00001-part00000 -> /tmp/mapreduce-shared-9pw0fgvp/job-00000/maptask00001-part00000
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00001-hs0emz2t/maptask00001-part00001 -> /tmp/mapreduce-shared-9pw0fgvp/job-00000/maptask00001-part00001
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00001-hs0emz2t/maptask00001-part00002 -> /tmp/mapreduce-shared-9pw0fgvp/job-00000/maptask00001-part00002
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00001-hs0emz2t/maptask00001-part00003 -> /tmp/mapreduce-shared-9pw0fgvp/job-00000/maptask00001-part00003
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00003-fa7pm32e/maptask00003-part00000 -> /tmp/mapreduce-shared-9pw0fgvp/job-00000/maptask00003-part00000
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00003-fa7pm32e/maptask00003-part00001 -> /tmp/mapreduce-shared-9pw0fgvp/job-00000/maptask00003-part00001
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00003-fa7pm32e/maptask00003-part00002 -> /tmp/mapreduce-shared-9pw0fgvp/job-00000/maptask00003-part00002
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00003-fa7pm32e/maptask00003-part00003 -> /tmp/mapreduce-shared-9pw0fgvp/job-00000/maptask00003-part00003
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00001-svjy7ppe/part-00001 -> output/part-00001
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00000-9cc6f00n/part-00000 -> output/part-00000
+Worker:6003 [ERROR] TCP handler raised: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/glenngriggs/eecs485/p4-mapreduce/mapreduce/utils/__init__.py", line 98, in tcp_server
+    handle_func(msg)
+  File "/home/glenngriggs/eecs485/p4-mapreduce/mapreduce/worker/__main__.py", line 121, in _handle_tcp
+    self._run_reduce_task(message)
+  File "/home/glenngriggs/eecs485/p4-mapreduce/mapreduce/worker/__main__.py", line 268, in _run_reduce_task
+    tcp_send(
+  File "/home/glenngriggs/eecs485/p4-mapreduce/mapreduce/utils/__init__.py", line 53, in tcp_send
+    sock.connect((host, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+Worker:6003 [INFO] Worker shutting down
+Worker:6003 [INFO] Starting worker host=localhost port=6003 pwd=/home/glenngriggs/eecs485/p4-mapreduce
+Worker:6003 [INFO] manager_host=localhost manager_port=6000
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-4aj8c7jb/maptask00002-part00000 -> /tmp/mapreduce-shared-_ei48kry/job-00000/maptask00002-part00000
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-4aj8c7jb/maptask00002-part00001 -> /tmp/mapreduce-shared-_ei48kry/job-00000/maptask00002-part00001
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-4aj8c7jb/maptask00002-part00002 -> /tmp/mapreduce-shared-_ei48kry/job-00000/maptask00002-part00002
+Worker:6003 [INFO] Moved /tmp/mapreduce-local-task00002-4aj8c7jb/maptask00002-part00003 -> /tmp/mapreduce-shared-_ei48kry/job-00000/maptask00002-part00003
+Worker:6003 [ERROR] TCP handler raised: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/glenngriggs/eecs485/p4-mapreduce/mapreduce/utils/__init__.py", line 98, in tcp_server
+    handle_func(msg)
+  File "/home/glenngriggs/eecs485/p4-mapreduce/mapreduce/worker/__main__.py", line 117, in _handle_tcp
+    self._run_map_task(message)
+  File "/home/glenngriggs/eecs485/p4-mapreduce/mapreduce/worker/__main__.py", line 189, in _run_map_task
+    tcp_send(
+  File "/home/glenngriggs/eecs485/p4-mapreduce/mapreduce/utils/__init__.py", line 53, in tcp_send
+    sock.connect((host, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+Worker:6003 [INFO] Worker shutting down

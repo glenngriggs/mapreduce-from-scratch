@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mapreduce"
+description = "EECS 485 MapReduce"
+version = "1.0.0"
+requires-python = ">=3.12"
+dependencies = [
+    "bs4",
+    "click",
+    "pycodestyle",
+    "pydocstyle",
+    "pylint",
+    "markdown",
+    "mypy",
+    "pytest",
+    "pytest-mock",
+    "pdbp",
+]
+
+[project.scripts]
+mapreduce-manager = "mapreduce.manager.__main__:main"
+mapreduce-worker = "mapreduce.worker.__main__:main"
+mapreduce-submit = "mapreduce.submit:main"
+
+[tool.setuptools]
+packages = ["mapreduce", "mapreduce.manager", "mapreduce.worker", "mapreduce.utils"]
+
+[tool.pylint.typecheck]
+# List of decorators that change the signature of a decorated function.
+# We need this because Click decorators mutate the main() function.
+signature-mutators = ["command", "option", "argument"]
+
+[tool.pylint.design]
+# Maximum number of arguments for function / method.
+max-args = 6
+# Maximum number of positional arguments for function / method.
+max-positional-arguments = 6
+# Minimum number of public methods for a class (see R0903).
+min-public-methods = 1

@@ -1,0 +1,13 @@
+Manager:6000 [INFO] Starting manager host=localhost port=6000 pwd=/home/glenngriggs/eecs485/p4-mapreduce
+Manager:6000 [INFO] Listening on UDP port 6000
+Manager:6000 [INFO] Listening on TCP port 6000
+Manager:6000 [INFO] Created tmpdir /tmp/mapreduce-shared-_ei48kry
+Manager:6000 [INFO] Created output
+Manager:6000 [INFO] Created /tmp/mapreduce-shared-_ei48kry/job-00000
+Manager:6000 [INFO] Begin Map Stage
+Manager:6000 [INFO] Assigned task to Worker MapTask(task_id=0, input_paths=[PosixPath('tests/testdata/input_large/file01')], executable=PosixPath('tests/testdata/exec/wc_map_slow.sh'), output_directory=PosixPath('/tmp/mapreduce-shared-_ei48kry/job-00000'), num_partitions=4) localhost:6001
+Manager:6000 [INFO] Assigned task to Worker MapTask(task_id=1, input_paths=[PosixPath('tests/testdata/input_large/file02')], executable=PosixPath('tests/testdata/exec/wc_map_slow.sh'), output_directory=PosixPath('/tmp/mapreduce-shared-_ei48kry/job-00000'), num_partitions=4) localhost:6002
+Manager:6000 [INFO] Assigned task to Worker MapTask(task_id=2, input_paths=[PosixPath('tests/testdata/input_large/file03')], executable=PosixPath('tests/testdata/exec/wc_map_slow.sh'), output_directory=PosixPath('/tmp/mapreduce-shared-_ei48kry/job-00000'), num_partitions=4) localhost:6003
+Manager:6000 [INFO] Assigned task to Worker MapTask(task_id=3, input_paths=[PosixPath('tests/testdata/input_large/file04')], executable=PosixPath('tests/testdata/exec/wc_map_slow.sh'), output_directory=PosixPath('/tmp/mapreduce-shared-_ei48kry/job-00000'), num_partitions=4) localhost:6004
+Manager:6000 [INFO] shutting down
+Manager:6000 [INFO] Cleaned up tmpdir /tmp/mapreduce-shared-_ei48kry

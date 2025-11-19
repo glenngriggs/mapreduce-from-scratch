@@ -1,0 +1,101 @@
+#!/usr/bin/env bash
+# EECS 485 Project 4 init script for MapReduce
+# Follows the spec start/stop/status/restart flow.
+
+set -Eeuo pipefail
+IFS=$'\n\t'
+
+MANAGER_HOST="localhost"
+MANAGER_PORT="6000"
+
+start_mapreduce() {
+  # Exit 1 if a Manager or Worker is already running.
+  if pgrep -f mapreduce-manager >/dev/null 2>&1; then
+    echo "Error: mapreduce-manager is already running"
+    exit 1
+  fi
+  if pgrep -f mapreduce-worker >/dev/null 2>&1; then
+    echo "Error: mapreduce-worker is already running"
+    exit 1
+  fi
+
+  echo "starting mapreduce ..."
+
+  mkdir -p var/log
+  rm -f var/log/manager.log var/log/worker-6002.log var/log/worker-6001.log
+
+  # Start manager in background
+  mapreduce-manager --host "${MANAGER_HOST}" --port "${MANAGER_PORT}" --logfile var/log/manager.log &
+  # give the Manager time to start
+  sleep 2
+
+  # Start workers in background
+  mapreduce-worker --host localhost --port 6001 --manager-host "${MANAGER_HOST}" --manager-port "${MANAGER_PORT}" --logfile var/log/worker-6001.log &
+  mapreduce-worker --host localhost --port 6002 --manager-host "${MANAGER_HOST}" --manager-port "${MANAGER_PORT}" --logfile var/log/worker-6002.log &
+}
+
+stop_mapreduce() {
+  echo "stopping mapreduce ..."
+
+  # Ask manager to shut down cleanly, manager will fan out to workers
+  mapreduce-submit --shutdown --host "${MANAGER_HOST}" --port "${MANAGER_PORT}" || true
+  # give the Manager time to receive signal and send to Workers
+  sleep 2
+
+  # If they're still around, kill them
+  if pgrep -f mapreduce-manager >/dev/null 2>&1; then
+    echo "killing mapreduce manager ..."
+    pkill -f mapreduce-manager || true
+  fi
+  if pgrep -f mapreduce-worker >/dev/null 2>&1; then
+    echo "killing mapreduce worker ..."
+    pkill -f mapreduce-worker || true
+  fi
+}
+
+status_mapreduce() {
+  manager_running=1
+  worker_running=1
+
+  if pgrep -f mapreduce-manager >/dev/null 2>&1; then
+    echo "manager running"
+    manager_running=0
+  else
+    echo "manager not running"
+  fi
+
+  if pgrep -f mapreduce-worker >/dev/null 2>&1; then
+    echo "workers running"
+    worker_running=0
+  else
+    echo "workers not running"
+  fi
+
+  # Exit 0 if both manager and at least one worker are running, 1 otherwise
+  if [[ $manager_running -eq 0 && $worker_running -eq 0 ]]; then
+    exit 0
+  else
+    exit 1
+  fi
+}
+
+case "${1:-}" in
+  start)
+    start_mapreduce
+    ;;
+  stop)
+    stop_mapreduce
+    ;;
+  status)
+    status_mapreduce
+    ;;
+  restart)
+    # spec example does stop then start
+    stop_mapreduce
+    start_mapreduce
+    ;;
+  *)
+    echo "Usage: $0 {start|stop|status|restart}" >&2
+    exit 1
+    ;;
+esac

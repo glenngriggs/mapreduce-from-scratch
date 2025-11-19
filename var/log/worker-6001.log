@@ -1,0 +1,2 @@
+Worker:6001 [INFO] Starting worker host=localhost port=6001 pwd=/home/glenngriggs/eecs485/p4-mapreduce
+Worker:6001 [INFO] manager_host=localhost manager_port=6000

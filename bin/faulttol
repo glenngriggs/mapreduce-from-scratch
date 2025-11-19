@@ -1,0 +1,19 @@
+#!/bin/bash
+set -Eeuxo pipefail
+
+./bin/mapreduce restart
+mapreduce-submit \
+    --input tests/testdata/input_large \
+    --output output \
+    --mapper tests/testdata/exec/wc_map_slow.sh \
+    --reducer tests/testdata/exec/wc_reduce_slow.sh \
+    --nmappers 4 \
+    --nreducers 4
+sleep 2
+pgrep -f mapreduce-worker | head -n1 | xargs kill
+pgrep -f mapreduce-worker | head -n1 | xargs kill
+tail -F var/log/worker-*.log
+
+
+
+cat output/* | sort > output.txt
