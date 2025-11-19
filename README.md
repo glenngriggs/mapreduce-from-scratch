@@ -2,7 +2,11 @@
 
 Python-based MapReduce framework, inspired by the original MapReduce system described by Google's 2004 paper *MapReduce: Simplified Data Processing on Large Clusters* by Dean & Ghemawat. It follows the logical structure of a Manager–Worker architecture similar to the distributed design used in large-scale data processing systems.
 
-![Execution with two inputs and two Workers](flow.png)
+<p align="center">
+  <img src="flow.png" width="700">
+  <br>
+  <em>Execution Diagram with Two Inputs and Two Workers</em>
+</p>
 
 ## Overview
 
@@ -20,7 +24,7 @@ The framework includes:
   - Execute Map or Reduce tasks using user-supplied executables
   - Produce intermediate key/value files and final reducer outputs
 
-Flow includes input partitioning, shuffle/sort behavior, and reduce aggregation.
+Flow also includes input partitioning, shuffle/sort behavior, and reduce aggregation.
 
 ## Project Structure
 
