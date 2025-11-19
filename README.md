@@ -1,4 +1,4 @@
-# MapReduce Framework
+# MapReduce Engine (Manager-Worker Architecture)
 
 Python-based MapReduce framework, inspired by the original MapReduce system described by Google's 2004 paper *MapReduce: Simplified Data Processing on Large Clusters* by Dean & Ghemawat. It follows the logical structure of a Manager–Worker architecture similar to the distributed design used in large-scale data processing systems.
 
